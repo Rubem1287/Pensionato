@@ -40,7 +40,7 @@ namespace Pensionato
                 for (int p = 0; p < 10; p++)
                 {
                    
-                    if (estudantes[p].Nome != null)
+                    if (estudantes[p] != null)
                     {
                         count++;
                         Console.WriteLine("Registro de aluguel #" + count + ":");
